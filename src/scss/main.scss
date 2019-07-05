@@ -1,0 +1,38 @@
+@import 'foundation';
+@include foundation-everything;
+
+$ctn-margin: 0 auto;
+$ctn-padding: 0 1rem;
+$ctn-max-width: 62.5rem;
+
+.ctn {
+  margin: $ctn-margin;
+  max-width: $ctn-max-width;
+  padding: $ctn-padding;
+}
+
+.icon {
+  &.favor {
+    color: $dark-gray;
+
+    &.active {
+      color: $primary-color;
+    }
+  }
+
+  &.sort {
+    cursor: pointer;
+  }
+
+  &.sort-asc,
+  &.sort-desc {
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+.item {
+  &:hover {
+    background-color: $medium-gray;
+  }
+}
