@@ -1,9 +1,15 @@
+@charset 'utf-8';
+
+@import 'exp-setting';
 @import 'foundation';
+
 @include foundation-everything;
 
-$ctn-margin: 0 auto;
-$ctn-padding: 0 1rem;
-$ctn-max-width: 62.5rem;
+.home {
+  background: $primary-color;
+  line-height: 420px;
+  text-align: center;
+}
 
 .ctn {
   margin: $ctn-margin;
