@@ -3,7 +3,21 @@
 @import 'exp-setting';
 @import 'foundation';
 
-@include foundation-everything;
+//@include foundation-everything;
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+@include foundation-button;
+@include foundation-button-group;
+
+@include foundation-table;
+
+@include foundation-breadcrumbs;
+@include foundation-card;
+@include foundation-pagination;
+
+@include foundation-menu;
 
 .home {
   background: $primary-color;
