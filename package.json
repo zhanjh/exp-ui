@@ -5,6 +5,9 @@
   "repository": "https://github.com/zhanjh/exp-ui",
   "author": "zhanjh <zhanjh@126.com>",
   "license": "MIT",
+  "bin": {
+    "exp-ui": "./script/frontServer.js"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
