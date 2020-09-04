@@ -17,7 +17,7 @@
     "foundation-sites": "^6.5.3",
     "gap-node-front": "^1.1.1",
     "jest": "^23.6.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "normalize.css": "^8.0.0",
     "pre-commit": "^1.2.2",
     "regenerator-runtime": "^0.12.1",
